@@ -53,6 +53,7 @@ public class MyStepDefinitions {
     	System.out.println("validating browser");
     	System.out.println("validating browser1");
     	System.out.println("validating browser2");
+    	System.out.println("branching2");
     }
 
     @When("^Browser is invoked$")
