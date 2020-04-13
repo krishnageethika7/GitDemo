@@ -58,6 +58,7 @@ public class MyStepDefinitions {
     @When("^Browser is invoked$")
     public void browser_is_invoked() throws Throwable {
     	System.out.println("calling browser");
+    	System.out.println("branching");
     }
 
     @Then("^checkif browser is opened$")
