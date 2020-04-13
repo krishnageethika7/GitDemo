@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 276516,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home page navigation on mobile",
+        "description": "",
+        "id": "mobiletest;home-page-navigation-on-mobile",
+        "after": [
+          {
+            "result": {
+              "duration": 94788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155111560,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is landing on fb page",
+            "match": {
+              "location": "MyStepDefinitions.user_is_landing_on_fb_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2851495,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User login with valid credentials \"geethika\" and \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "geethika",
+                  "offset": 35
+                },
+                {
+                  "val": "password2",
+                  "offset": 50
+                }
+              ],
+              "location": "MyStepDefinitions.user_login_with_valid_credentials_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144899,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Home page of FB is displayed \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 30
+                }
+              ],
+              "location": "MyStepDefinitions.home_page_of_fb_is_displayed_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@MobileTest"
+          }
+        ]
+      }
+    ],
+    "name": "MobileTest",
+    "description": "",
+    "id": "mobiletest",
+    "keyword": "Feature",
+    "uri": "Account.feature"
+  }
+]

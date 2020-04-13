@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.158479">
+<testcase classname="MobileTest" name="Home page navigation on mobile" time="0.158479">
+<system-out><![CDATA[Given User is landing on fb page............................................passed
+When User login with valid credentials "geethika" and "password2"...........passed
+Then Home page of FB is displayed "false"...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
