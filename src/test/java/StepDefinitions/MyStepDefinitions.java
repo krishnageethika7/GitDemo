@@ -53,7 +53,11 @@ public class MyStepDefinitions {
     	System.out.println("validating browser");
     	System.out.println("validating browser1");
     	System.out.println("validating browser2");
+<<<<<<< HEAD
     	System.out.println("branching2");
+=======
+        System.out.println("branching2");
+>>>>>>> ba3e27c3b231e2a79ed6037c431d1ca923a38c7f
     }
 
     @When("^Browser is invoked$")
