@@ -51,6 +51,8 @@ public class MyStepDefinitions {
     @Given("^validate the user$")
     public void validate_the_user() throws Throwable {
     	System.out.println("validating browser");
+    	System.out.println("validating browser1");
+    	System.out.println("validating browser2");
     }
 
     @When("^Browser is invoked$")
